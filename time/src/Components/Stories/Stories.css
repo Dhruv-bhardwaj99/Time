@@ -1,0 +1,57 @@
+.stoyBody{
+    width: 100%;
+    /* height: 500px; */
+    margin-top: 1%;
+    border: 1px solid transparent;
+    display: flex;
+    /* padding: 2% 5%; */
+}
+
+.leftInfo{
+    width: 75%;
+    height: 100%;
+    border: 1px solid transparent;
+}
+
+.leftInfo > h1{
+    padding: 1% 10%;
+}
+.rightInfo{
+    width: 25%;
+    height: 100%;
+    border: 1px solid transparent;
+    text-align: center;
+    background-color: #f7ff00;
+}
+
+.leftStory{
+    width: 90%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.latestStory{
+    padding: 1% 10%;
+}
+
+.storyTitle{
+    margin-bottom: 1%;
+}
+
+.timeAndDate{
+    font-weight: bold;
+    color: gray;
+    margin-top: 1%;
+}
+
+.VoiceTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.storyTitle:hover{
+    cursor: pointer;
+}
